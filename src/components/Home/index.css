@@ -1,0 +1,50 @@
+.home-container {
+  height: 100vh;
+  display: flex;
+  background-color: black;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  padding: 30px;
+}
+.home-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.home-image {
+  width: 50%;
+}
+.find-job-btn {
+  width: 150px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  color: white;
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 6px;
+  background-color: #0967d2;
+  margin-top: 20px;
+}
+.home-description {
+  text-align: left;
+  font-family: 'Roboto';
+
+  font-size: 20px;
+  line-height: 28px;
+  color: #64748b;
+  margin-bottom: 0;
+  text-align: left;
+}
+.home-heading {
+  text-align: left;
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin-top: 0px;
+  font-size: 46px;
+  color: #fff;
+  text-align: left;
+}
