@@ -1,0 +1,16 @@
+.notfound-container {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.error-heading {
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+}
+.error-description {
+  color: grey;
+}

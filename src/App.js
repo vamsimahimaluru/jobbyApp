@@ -1,6 +1,10 @@
 import {Route, Switch} from 'react-router-dom'
 import Login from './components/Login'
 import Home from './components/Home'
+import NotFound from './components/NotFound'
+import ProtectedRoute from './components/ProtectedRoute'
+import JobDetailsCard from './components/JobDetailsCard'
+// import AllJobs from './components/AllJobs'
 import './App.css'
 
 // const employmentTypesList = [
@@ -41,12 +45,14 @@ import './App.css'
 //   },
 // ]
 
-// Replace your code here
 const App = () => (
   <>
     <Switch>
       <Route exact path="/login" component={Login} />
-      <Route exact path="/" component={Home} />
+      <ProtectedRoute exact path="/" component={Home} />
+      {/* <Route exact path="/alljobs" component={AllJobs} /> */}
+      <Route exact path="/jobdetails" component={JobDetailsCard} />
+      <Route component={NotFound} />
     </Switch>
   </>
 )

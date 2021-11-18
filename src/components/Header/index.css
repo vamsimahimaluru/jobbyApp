@@ -1,18 +1,24 @@
 .nav-header {
   padding: 15px;
   background-color: #7e858e;
-}
-.nav-content {
   display: flex;
   justify-content: space-between;
 }
+
 .website-logo {
   width: 140px;
 }
 .nav-menu {
   display: flex;
+  justify-content: space-between;
 }
 .nav-menu li {
+  text-decoration: none;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  justify-content: center;
+
   list-style-type: none;
   margin-left: 50px;
   font-size: 20px;
